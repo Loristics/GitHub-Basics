@@ -7,3 +7,29 @@ With the assumption that everyone learns a bit differently and sometimes even on
 All that noted, here are some introductions to `git` and GitHub that might be useful:
 
 * It probably isn't the best place to start, but GitHub classroom has a basic document that they offer as a template and is included here as [The GitHub Version of GitHub and Version Control](gh-version.md).
+* A better place to start for most will be Tom van Antwerp's [GitHub for Non-Programmers: A guide to using GitHub for people who don't code and don't want to code](https://github.com/tvanantwerp/github-for-non-programmers).
+* There is also Devon Broglie and Rebecca Parker's [Git and GitHub Basics](http://dh.obdurodon.org/github.xhtml) which is intended for students in their course in the digital humanities.
+* And there is also Olivia Wikle and Adam Sowards' [Introduction to GitHub](https://learn-static.github.io/hist-320/github.html) which is part of their course on 20th-Century History & Text Analysis. 
+
+## The Essentials
+
+### What you need to know
+
+Git is a bit of software that keeps track of the changes you make to files. It was designed to do this for programmers, and so it works best with plain text files. As we discuss in class, plain text files are not only smaller but more robust than rich text files (`.rtf`) or Microsoft Word files (`.docx`). 
+
+Plain text files are great, but there are a lot of things they do not do well: I've yet to encounter a plain text slide generator that didn't either make slides worse than PowerPoint or make their production infinitely harder than PowerPoint, which is saying something in my book. They cannot in and of themselves track changes, for example, which is something that any one producing any kind of artifact, and especially complex ones like software programs or essays, would like to be able to do. 
+
+That is where a **version control** system comes in. There are a lot of version control systems out there, some of which are centralized -- like *Subversion* -- and some of which are decentralized -- like *Hg* or *Git*. Each kind of systems has its strengths and weaknesses, but what you need to know for now is that Git is decentralized, which means that you can maintain a version of a document on your computer, and so can a bunch of other people and no one's version is *the* version until you have compared and merged all the versions. That sounds mind-boggingly complex, which is why people use version control software like Git. It keeps the hair on their heads -- unless baldness is your jam.
+
+So, great, you are in a class that's going to require you not to use Microsoft Word, which is like the de facto standard in countless businesses, organizations, and government agencies -- trust me when I say I know of which I speak. The fact is most people use Word and PowerPoint and Excel really badly. I mean really, really badly. But they think it's all good because, hey, this got **bolded** and over here …
+
+* this got bulleted.
+
+So that must be important or good or something, right?
+
+Nope. 
+
+
+
+### What you need to do
+
