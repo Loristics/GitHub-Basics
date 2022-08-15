@@ -21,15 +21,25 @@ Plain text files are great, but there are a lot of things they do not do well: I
 
 That is where a **version control** system comes in. There are a lot of version control systems out there, some of which are centralized -- like *Subversion* -- and some of which are decentralized -- like *Hg* or *Git*. Each kind of systems has its strengths and weaknesses, but what you need to know for now is that Git is decentralized, which means that you can maintain a version of a document on your computer, and so can a bunch of other people and no one's version is *the* version until you have compared and merged all the versions. That sounds mind-boggingly complex, which is why people use version control software like Git. It keeps the hair on their heads -- unless baldness is your jam.
 
-So, great, you are in a class that's going to require you not to use Microsoft Word, which is like the de facto standard in countless businesses, organizations, and government agencies -- trust me when I say I know of which I speak. The fact is most people use Word and PowerPoint and Excel really badly. I mean really, really badly. But they think it's all good because, hey, this got **bolded** and over here …
+So, great, you are in a class that's going to require you not to use Microsoft Word, which is like the *de facto* standard in countless businesses, organizations, and government agencies -- trust me when I say I know of which I speak. The fact is most people use Word and PowerPoint and Excel really badly. I mean really, really badly. But they think it's all good because, hey, this got **bolded** and over here …
 
 * this got bulleted.
 
 So that must be important or good or something, right?
 
-Nope. 
+The fact is there is a reason why dynamic companies like Amazon have turned away from PowerPoint decks, and toward 6-page essays (more on this later), and more hide-bound organizations like the U.S. Army end up producing *PowerPoint Rangers*. 
 
+My hope is that in making you work in an unfamliar way in an unfamiliar environment you will think about the process of research, thinking, and writing differently than you have before. And that is why we are using plain text and we are using version control. And why we are using GitHub so that, in the end, you own your work.
 
 
 ### What you need to do
 
+There's a lot to Git and GitHub, but you have to get started somewhere and *soon*. So here are your steps — please note that URLs are not provided on purpose.
+
+1. **Sign up for a GitHub account**. I recommend that you use some version of your name so that you can continue to use GitHub as you move from school into a professional environment. While I used my full name for my account, the convention is to use initials and then your last name. (This is especially the case for women, because, sadly, women still have to deal with discrimination and harrassment.) My long-time collaborator has the username `kmkinnaird`. 
+2. **Download GitHub Desktop**. This should offer to install the command line version of `git` if it isn't on your system already. 
+3. **Create a repo on GitHub**. The name isn't important: it's important that you create a repo. Follow the prompts that the GitHub website provides. 
+4. **Clone the repo to your computer**. This is where things get interesting. Do you see that blue **Code** button? (See Figure 1.) If you click on it, you will get a menu. One of the options should be *Open with GitHub Desktop*. If so, click on that. If not, click the copy button to the right URL provided (see Figure 2 below), and paste that into GitHub Desktop after you choose the *Clone* option under the **File** menu. You will need to decided where to keep your repositories on your computer. Because `git` is itself a version control system, many people suggest you do not keep it OneDrive, DropBox, or iCloud. Most programmers have a directory (folder) in their user directory where they keep their repositories. I use `Developer` because the macOS recognizes that is a special kind of folder and gives it a special kind of icon. (Oh, boy!) 
+
+![Figure 1: The Code Button](assets/gh-fig-1-code_button.png)
+![Figure 2: Code Button Menu Options](assets/gh-fig-2-menu.png)
