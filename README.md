@@ -1,15 +1,19 @@
 # ReadMe
 
-**Congratulations**. If you are reading this, then you have successfully gotten here, and that was probably no easy task. You are reading this repository's *Read Me* file, which is the default file that GitHub shows in the web interface. It's where newcomers to a repository first look if they have any questions. It's a good idea always to have one and to be direct in your writing in it.
+**Congratulations**. If you are reading this, then you have successfully gotten here, and that was probably no easy task. You are reading this repository's *Read Me* file, which is the default file that GitHub shows in the web interface. It's where newcomers to a repository first look if they have any questions. It's a good idea always to have one and to be direct in your writing in/of it.
 
-With the assumption that everyone learns a bit differently and sometimes even one person needs different ways to learn something, this explanation of GitHub and `git` has a number of possibly useful, possibly redundant materials or links to materials. You must decide when you know enough, for the time being, but you can also rely on these things being here in the future, so as you get familiar with the basics, or have questions about something that might be basic, you have a place to which you can turn. 
+With the assumption that everyone learns a bit differently and sometimes even one person needs different ways to learn something, this explanation of GitHub and `git` has a number of possibly useful, possibly redundant materials or links to materials. You must decide when you know enough, for the time being, but you can also rely on these things being here in the future, so as you get familiar with the basics, or have questions about something that might be basic, you have a place to which you can turn.
 
-All that noted, here are some introductions to `git` and GitHub that might be useful:
+This ReadMe is longer than most, and is divided into the following parts:
 
-* It probably isn't the best place to start, but GitHub classroom has a basic document that they offer as a template and is included here as [The GitHub Version of GitHub and Version Control](gh-version.md).
-* A better place to start for most will be Tom van Antwerp's [GitHub for Non-Programmers: A guide to using GitHub for people who don't code and don't want to code](https://github.com/tvanantwerp/github-for-non-programmers).
-* There is also Devon Broglie and Rebecca Parker's [Git and GitHub Basics](http://dh.obdurodon.org/github.xhtml) which is intended for students in their course in the digital humanities.
-* And there is also Olivia Wikle and Adam Sowards' [Introduction to GitHub](https://learn-static.github.io/hist-320/github.html) which is part of their course on 20th-Century History & Text Analysis. 
+* The Essentials
+* About `git` and GitHub
+* What you need to do
+
+Feel free to skip around in a way that makes the most sense to you.
+
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
 
 ## The Essentials
 
@@ -29,7 +33,11 @@ So that must be important or good or something, right?
 
 The fact is there is a reason why dynamic companies like Amazon have turned away from PowerPoint decks, and toward 6-page essays (more on this later), and more hide-bound organizations like the U.S. Army end up producing *PowerPoint Rangers*. 
 
-My hope is that in making you work in an unfamliar way in an unfamiliar environment you will think about the process of research, thinking, and writing differently than you have before. And that is why we are using plain text and we are using version control. And why we are using GitHub so that, in the end, you own your work.
+My hope is that in making you work in an unfamliar way in an unfamiliar environment you will think about the process of research, thinking, and writing differently than you have before. And that is why we are using plain text and we are using version control. And why we are using GitHub so that, in the end, you own your work and it's not in someone else's file format.
+
+Okay, so two things rolled into one: plain text and version control, but in this moment, we have to get you into/onto GitHub so you have a place to put plain text documents and then we will work on making your plain texts do as much as most Word documents. (Please note that by claiming this I am thinking about the vast trove of Word documents that do no more than a lot of one-off chracter formatting and not those that use Word's style system -- if you have no idea what that is, you're the problem.)
+
+*If you want to jump ahead to the notes about plain text, see [texted.md]() in this repository.*
 
 
 ### What you need to do
@@ -43,3 +51,15 @@ There's a lot to Git and GitHub, but you have to get started somewhere and *soon
 
 ![Figure 1: The Code Button](assets/gh-fig-1-code_button.png)
 ![Figure 2: Code Button Menu Options](assets/gh-fig-2-menu.png)
+
+## Resources
+
+Here are some introductions to `git` and GitHub that might be useful:
+
+* It probably isn't the best place to start, but GitHub classroom has a basic document that they offer as a template and is included here as [The GitHub Version of GitHub and Version Control](gh-version.md).
+* A better place to start for most will be Tom van Antwerp's [GitHub for Non-Programmers: A guide to using GitHub for people who don't code and don't want to code](https://github.com/tvanantwerp/github-for-non-programmers).
+* There is also Devon Broglie and Rebecca Parker's [Git and GitHub Basics](http://dh.obdurodon.org/github.xhtml) which is intended for students in their course in the digital humanities.
+* And there is also Olivia Wikle and Adam Sowards' [Introduction to GitHub](https://learn-static.github.io/hist-320/github.html) which is part of their course on 20th-Century History & Text Analysis. 
+* Finally, Jacob Fiksel posted a short document to help his biostatistics [students get started on Github](https://github.com/jfiksel/github-classroom-for-students).
+
+This brief guide draws upon the work of all of the above. My thanks to them for sharing their work and helping all of us get better.
