@@ -12,8 +12,6 @@ This ReadMe is longer than most, and is divided into the following parts:
 
 Feel free to skip around in a way that makes the most sense to you.
 
-https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-
 
 ## The Essentials
 
@@ -37,7 +35,7 @@ My hope is that in making you work in an unfamliar way in an unfamiliar environm
 
 Okay, so two things rolled into one: plain text and version control, but in this moment, we have to get you into/onto GitHub so you have a place to put plain text documents and then we will work on making your plain texts do as much as most Word documents. (Please note that by claiming this I am thinking about the vast trove of Word documents that do no more than a lot of one-off chracter formatting and not those that use Word's style system -- if you have no idea what that is, you're the problem.)
 
-*If you want to jump ahead to the notes about plain text, see [texted.md]() in this repository.*
+*If you want to jump ahead to the notes about plain text, see [texted.md](https://github.com/Loristics/GitHub-Basics/blob/main/texted.md) in this repository.*
 
 
 ### What you need to do
