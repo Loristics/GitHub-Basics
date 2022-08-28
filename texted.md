@@ -1,6 +1,8 @@
 # Texted!
 
-*Oh, you move quickly. This isn't ready yet.*
+*If you want to know what this note is all about, click on the Raw button just above.*
+
+![GH Raw Button](./assets/gh-raw-button.png)
 
 Plain text is what it says on the label: a plain text file contains only the chracters you have typed into it. There are no hidden characters -- save a few like newline characters `\n` and tab characters `\t` that you really can see if you insist on it. 
 
