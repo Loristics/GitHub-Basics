@@ -29,6 +29,34 @@ And plain text files can come in a variety of flavors, or dialects if you prefer
 
 There are other plain text formats, some of which offer more (and better) funtionality, but none has yet to approach markdown in terms of popularity. The original version of Markdown was designed with the intent of making it easy to write in plain text and then, by passing the plain text through a system of substitutions, have it come out on the other end as simple HTML. Thus, a line of text, no matter how long that was followed by two new lines, or returns, became an HTML `<p>`. Text that appeared between `*`asterisks`*` became *italicized* (or actually emphasized, `<em>`, in HTML). And so on. 
 
-Headings and bullet points and links, all the essential stuff of basic, structured HTML, were there, even the ability to embed images. What was missing, from a scholarly point of view, were things like notes and the ability to handle some of the citational infrastructure -- which is perhaps why LaTeX remains an integral part of the publishing workflow in the sciences. (And please note that while none of these setups are necessarily intuitive, they are, above all, free. Microsoft Word might appear to be intuitive, since some of you have been using it since grade school, but it isn't, especially if you are to use it wise and well, which most of you don't. And it is most definitely not free: it's just that your parents, or your parents' work, or your school, and now your university pay for you to use it.)
+Headings and bullet points and links, all the essential stuff of basic, structured HTML, were there, even the ability to embed images. What was missing, from a scholarly point of view, were things like notes and the ability to handle some of the citational infrastructure -- which is perhaps why LaTeX remains an integral part of the publishing workflow in the sciences. (And please note that while none of these setups, both various plain text schema as well as LaTeX, are necessarily intuitive, they are, above all, free. Microsoft Word might appear to be intuitive, since some of you have been using it since grade school, but it isn't, especially if you are to use it wise and well, which most of you don't. And it is most definitely not free: it's just that your parents, or your parents' work, or your school, and now your university pay for you to use it.)
 
-There are other versions of markdown that have other kinds of functionality, and should your wizardry head in that direction, you can try them out for yourself. So many in fact that there is an effort to develop a common specification, [CommonMark](https://commonmark.org). BTW, CommonMark's [10-minute tutorial](https://commonmark.org/help/) is incredible, and that link will take you to a cheatsheet, and here's another popular [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). 
+There are other versions of markdown that have other kinds of functionality, and should your wizardry head in that direction, you can try them out for yourself. So many in fact that there is an effort to develop a common specification, [CommonMark](https://commonmark.org). BTW, CommonMark's [10-minute tutorial](https://commonmark.org/help/) is incredible, and that link will take you to a cheatsheet, and here's another popular [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+
+In case you don't want to go any place else, here are the essentials:
+
+- The building block of any piece of writing is the paragraph. In most plain text documents, a new paragraph is indicated by two carriage returns or newlines, the one that finishes the paragraph and another to create a space between it and the next paragraph. (It's not optimum for widescreens, but it's a widely-accepted convention.)
+- Headings start with a hash mark (aka the pound sign, `#`). A first level heading has one; a second level two, etc. 
+- Blockquotes start with a greater-than symbol, `>`, and then a space. 
+
+Below is an example of what I've just described above, followed by the outputted version (HTML). 
+
+```
+# Heading 1
+
+A paragraph that says something really interesting, setting up a 
+quotation that drives the point home:
+
+> Failure is not an option.
+
+And always a follow-up to the quotation, no?
+```
+
+# Heading 1
+
+A paragraph that says something really interesting, setting up a 
+quotation that drives the point home:
+
+> Failure is not an option.
+
+And always a follow-up to the quotation, no?
